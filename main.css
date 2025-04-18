@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+}
+
+/*bodyタグ*/
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  font-family: sans-serif;
+}
+
+/*mainタグ*/
+main{
+  width: 250px;
+  height: auto;
+  margin: 30px auto 0 auto;
+  padding-bottom: 30px;
+  border: 2px solid black;
+  border-radius: 40px;
+  background-color: #9EB4A8;
+}
+
+  .monitor{
+    width: 85%;
+    height: auto;
+    margin: 20px auto 15px auto;
+    background-color: rgb(70, 70, 70);
+    border: 2px solid black;
+    border-radius: 20px;
+    /*以下は子要素（モニターの表示値）に作用するもの*/
+    display: flex;
+    /*justify-content: end;*/
+    align-items: center;
+  }
+    #result{
+      width: 95%;
+      font-size: 32px;
+      margin: 0 auto;
+      text-align: end;
+      color: white;
+      border: 1px solid black;
+      word-break: break-all;
+    }
+
+  .buttons-line{
+    width: 88%;
+    height: auto;
+    margin: 3px auto 3px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .buttons{
+    width:20%;
+    aspect-ratio: 1 / 1;
+    margin: 0 1%;
+    border-radius: 50%;
+    font-size: 22px;
+    background-color: white;
+    border: 1.5px solid black;
+  }
+
+  .bottom-buttons{
+    width:42%;
+    margin: 0 1%;
+    padding: 0;
+    border-radius: 30px;
+    font-size: 22px;
+    background-color: #E6B091;
+    border: 1.5px solid black;
+  }
